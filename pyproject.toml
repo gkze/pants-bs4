@@ -1,0 +1,16 @@
+[project]
+name = "pants-bs4"
+dependencies = [
+  "beautifulsoup4==4.11.1",
+  "pillow==10.3.0",
+  "playwright-stealth==1.0.6",
+  "setuptools==63.1.0",
+]
+
+[tool.pyright]
+include = ["."]
+pythonPlatform = "Linux"
+pythonVersion = "3.10"
+typeCheckingMode = "strict"
+venv = "dist/export/python/virtualenvs/python-default/3.10.14"
+venvPath = "."
